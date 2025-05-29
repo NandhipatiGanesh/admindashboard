@@ -1,5 +1,5 @@
 "use client";
-import React, { useState, useEffect } from "react";
+import React from "react";
 import Combo from "../assets/combo";
 import navItems from "./navItems";
 import { usePathname } from "next/navigation";
