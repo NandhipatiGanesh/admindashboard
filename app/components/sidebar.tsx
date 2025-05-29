@@ -12,11 +12,7 @@ type SidebarProps = {
 export default function Sidebar({ isOpen }: SidebarProps) {
   const pathname = usePathname();
 
-  const [open, setOpen] = useState(isOpen);
-  const [home, setHome] = useState(false);
-  useEffect(() => {
-    setHome(pathname === "/");
-  }, [pathname]);
+
 
   return (
     // <div

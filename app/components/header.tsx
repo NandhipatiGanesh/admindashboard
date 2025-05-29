@@ -3,15 +3,12 @@ import React from "react";
 import Combo from "@/app/assets/combo";
 import {
   FiSidebar,
-  FiStar,
   FiSun,
   FiClock,
   FiBell,
   FiSearch,
 } from "react-icons/fi";
-type HeaderProps = {
-  toggleSidebar: () => void;
-};
+
 
 export default function Header({
   toggleSidebar,
