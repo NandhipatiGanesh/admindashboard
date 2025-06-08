@@ -16,7 +16,7 @@ export default function LayoutWrapper({
       <Sidebar isOpen={sidebarOpen} />
       <div className="flex flex-col w-full p-[20px]">
         <Header toggleSidebar={() => setSidebarOpen((prev) => !prev)} />
-        {children}
+        <section className="overflow-y-scroll h-full">{children}</section>
       </div>
     </section>
   );
